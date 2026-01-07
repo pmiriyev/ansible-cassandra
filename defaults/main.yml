@@ -2,7 +2,7 @@
 # defaults file for ansible-cassandra
 
 cassandra_version: '3.11.19'
-cassandra_sha256: 'sha256-ZyQJ04BM3enCe0x+na+Q/ccySsbbjyYI4iXysAzUVTQ='
+cassandra_sha256: 'sha256:672409d3804cdde9c27b4c7e9daf90fdc7324ac6db8f2608e225f2b00cd45534'
 cassandra_file: 'apache-cassandra-{{ cassandra_version }}-bin.tar.gz'
 cassandra_mirror: 'https://archive.apache.org/dist/cassandra'
 cassandra_url: '{{ cassandra_mirror }}/{{ cassandra_version }}/{{ cassandra_file }}'
