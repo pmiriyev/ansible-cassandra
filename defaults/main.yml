@@ -1,10 +1,10 @@
 ---
 # defaults file for ansible-cassandra
 
-cassandra_version: '3.11.16'
-cassandra_sha256: 'sha256:cd01c6d12345316a1f940133263eea9d284c7a20b7ef45c26f1a22b5b475fc08'
+cassandra_version: '3.11.19'
+cassandra_sha256: 'sha256-ZyQJ04BM3enCe0x+na+Q/ccySsbbjyYI4iXysAzUVTQ='
 cassandra_file: 'apache-cassandra-{{ cassandra_version }}-bin.tar.gz'
-cassandra_mirror: 'http://archive.apache.org/dist/cassandra'
+cassandra_mirror: 'https://archive.apache.org/dist/cassandra'
 cassandra_url: '{{ cassandra_mirror }}/{{ cassandra_version }}/{{ cassandra_file }}'
 cassandra_storage_port: 7000
 cassandra_ssl_storage_port: 7001
